@@ -1,25 +1,30 @@
-html, body {
-    margin: 0;
-    padding: 0;
+html,
+body {
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    font-size: 50px;
-    font-family: 'Dosis', sans-serif;
+  font-size: 50px;
+  font-family: "Dosis", sans-serif;
+}
+
+p {
+  font-size: 25px;
 }
 
 .container {
-    height: 100vh;
-    background-color: gold;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  height: 100vh;
+  background-color: gold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
 }
 
 textarea {
-    height: 60%;
-    width: 80%;
-    font-size: 20px;
+  height: 40%;
+  width: 80%;
+  font-size: 20px;
 }
-

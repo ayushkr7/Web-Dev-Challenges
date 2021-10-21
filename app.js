@@ -20,6 +20,11 @@ function randColorBg(){
   document.body.style.scrollbarTrackColor= colors[r];
 }
 
+function clearAll() {
+    document.getElementById("txtid").value = "";
+    randColorBg();
+}
+
 function longest_string(str_ara) {
   let max = str_ara[0].length;
   str_ara.map(v => max = Math.max(max, v.length));

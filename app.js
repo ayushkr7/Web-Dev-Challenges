@@ -20,9 +20,14 @@ function randColorBg(){
   document.body.style.scrollbarTrackColor= colors[r];
 }
 
-function clearAll() {
-    document.getElementById("txtid").value = "";
+function clearAll(){
+    let a ='';
+    document.getElementById('txtid').value=a;
     randColorBg();
+    document.getElementById("count-left").innerHTML = 200;
+    document.getElementById("count-char").innerHTML = 0;
+    document.getElementById("long-word").innerHTML = '';
+    document.querySelector("#count").innerText = '';
 }
 
 function longest_string(str_ara) {

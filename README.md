@@ -1,6 +1,5 @@
-# Web-Dev-Mini-Projects
-
-A collection of mini projects I have made while participating in online Web Dev Challenges
+# Web-Dev-Challenges
+A collection of my submissions in online Web Dev Challenges
 <br>
 
 ### Common platform that organize Web Dev Challenges:

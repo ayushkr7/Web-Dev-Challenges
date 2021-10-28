@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: grid;
+  background: hsl(230 35% 7%);
+}
+
+.container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+p {
+  background: white;
+  width: 250px;
+  height: 250px;
+  font-size: 30px;
+  line-height: 250px;
+  display: block;
+  border-radius: 50%;
+  text-align: center;
+  outline: 0px solid rgba(244, 246, 240, 0.5);
+  cursor: pointer;
+}
+
+@keyframes sizechange {
+  from {
+    width: 250px;
+    height: 250px;
+    line-height: 250px;
+  }
+
+  to {
+    width: 190px;
+    height: 190px;
+    line-height: 190px;
+    font-size: 22px;
+    outline: 70px solid rgba(244, 246, 240, 0.5);
+  }
+}
+
+p:hover {
+  animation-timing-function: linear;
+  animation-name: sizechange;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}

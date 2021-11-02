@@ -29,6 +29,7 @@ p {
   cursor: pointer;
 }
 
+/* button animation */
 @keyframes sizechange {
   from {
     width: 250px;
@@ -51,3 +52,61 @@ p:hover {
   animation-duration: 0.5s;
   animation-fill-mode: forwards;
 }
+
+/* bacground star animation */
+@-webkit-keyframes STAR-MOVE {
+  from {
+    left: 0;
+    top: 0;
+  }
+  to {
+    left: -10000px;
+    top: -2000px;
+  }
+}
+
+#background {
+  background: url(/image/background.png) repeat 5% 5%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -100;
+
+  -webkit-animation-name: STAR-MOVE;
+  -webkit-animation-duration: 200s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+}
+
+#midground {
+  background: url(/image/midground.png) repeat 20% 20%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -200;
+
+  -webkit-animation-name: STAR-MOVE;
+  -webkit-animation-duration: 150s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+}
+
+#foreground {
+  background: url(/image/foreground.png) repeat 35% 35%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -100;
+
+  -webkit-animation-name: STAR-MOVE;
+  -webkit-animation-duration: 100s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+}
+

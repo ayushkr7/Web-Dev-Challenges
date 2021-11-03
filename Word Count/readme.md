@@ -1,21 +1,20 @@
 ## Objective
-Create a button and show following animation:<br>
-<img src="https://user-images.githubusercontent.com/51288637/140086461-c0fdc76f-1014-4c8b-8bbf-aee93fa41801.png" width=25% height=25%>
-<img src="https://user-images.githubusercontent.com/51288637/140086208-9c771123-e17e-4665-97c0-4e10f62c2083.png" width=25% height=25%>
+Create a word counter that counts number of words added by user in textarea.
 
 ### Stretch Goals
- - Add animation
- - Style button for light theme
- - Redesign button with your own style
+ - Find longest word
+ - Count Character
+ - Spell Check
 
 
 ### My Submission
-   Not done yet
+   [Word Counter - Ayush](https://scrimba.com/scrim/cye2ppT4)
+   <br>
+   ![Word Counter Demo.png](https://user-images.githubusercontent.com/51288637/139122077-3d89b3b1-812b-4e4c-b212-1ba0bbfa24c2.png)
 
 
 ### Reference Used
- [Starry Night: Incredible 3D Background Effect with Parallax](https://css-tricks.com/3d-parralax-background-effect/)
- [Parallax Background of Stars (plus CSS3 keyframe animation)](https://css-tricks.com/parallax-background-css3/)
+ [How to make a word count in textarea using JavaScript ?](https://www.geeksforgeeks.org/how-to-make-a-word-count-in-textarea-using-javascript/)
  
  
    
